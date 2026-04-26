@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data — raw patient data is not committed (too large / patient privacy)
+data/raw/
+data/processed/
+
+# Model outputs — large binary files
+outputs/models/*.sav
+outputs/results/*.csv
+
+# Keep folder placeholders
+!data/raw/.keep
+!data/processed/.keep
+!outputs/models/.keep
+!outputs/results/.keep
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
